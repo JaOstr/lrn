@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
     // parse the command-line
     while ((opt = getopt(argc, argv, "crth")) != -1)
     {
-        swich(opt)
+        switch(opt)
         {
             case 'c':
                 if (circle() == -1)
